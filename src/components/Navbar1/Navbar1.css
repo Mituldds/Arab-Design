@@ -1,0 +1,29 @@
+.navbar_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+.navbar1_title {
+  display: flex;
+  font-size: 18px;
+  color: rgba(61, 70, 154, 1);
+}
+
+.navbar1_icon {
+  align-items: center;
+  display: flex;
+  width: 35%;
+  justify-content: inherit;
+  color: rgba(61, 70, 154, 1);
+}
+
+.user_button {
+  border-radius: 10px;
+  background-color: rgba(237, 239, 255, 1);
+  color: rgba(61, 70, 154, 1);
+  border: none;
+  height: 100%;
+  padding: 10px 25px 10px 25px;
+}
