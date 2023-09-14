@@ -9,8 +9,7 @@
   /* margin-left: 150px; */
 }
 
-.categoties,
-p {
+.categoties {
   display: flex;
   justify-content: center;
   font-size: 25px;

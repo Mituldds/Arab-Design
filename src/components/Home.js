@@ -4,6 +4,9 @@ import Navbar2 from "./Navbar2/Navbar2";
 import ShopNow from "./ShopNow/ShopNow";
 import Box from "./Box/Box";
 import "./Home.css";
+import Trending from "./Trending/Trending";
+import WhyChooseUs from "./WhyChooseUS/WhyChooseUs";
+import Customers from "./Customers/Customers";
 
 const Home = () => {
   return (
@@ -13,6 +16,9 @@ const Home = () => {
         <Navbar2 />
         <ShopNow />
         <Box />
+        <Trending />
+        <WhyChooseUs />
+        <Customers />
       </div>
     </>
   );
