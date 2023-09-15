@@ -7,6 +7,7 @@ import "./Home.css";
 import Trending from "./Trending/Trending";
 import WhyChooseUs from "./WhyChooseUS/WhyChooseUs";
 import Customers from "./Customers/Customers";
+import StayConnected from "./StayConnected/StayConnected";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <Trending />
         <WhyChooseUs />
         <Customers />
+        <StayConnected />
       </div>
     </>
   );

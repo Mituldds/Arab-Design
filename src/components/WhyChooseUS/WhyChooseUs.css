@@ -12,6 +12,12 @@
   justify-content: space-between;
 }
 
+.Secure_Transaction,
+img {
+  margin: auto;
+  display: flex;
+}
+
 .Secure_Wide {
   font-size: 25px;
   color: rgba(61, 70, 154, 1);

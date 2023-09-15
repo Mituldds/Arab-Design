@@ -21,10 +21,6 @@ const ShopNow = () => {
 
           <button className="ShopNow_btn">Shop Now</button>
         </div>
-
-        {/* <div className="image_top">
-        <img src="/Images/Group.svg" />
-        </div> */}
       </div>
     </>
   );

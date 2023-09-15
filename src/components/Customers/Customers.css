@@ -1,0 +1,58 @@
+.Customer {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.Customer_Card {
+  border-radius: 25px;
+  height: 175px;
+  width: 331px;
+  border: 0.1px solid rgb(249 249 249);
+  box-shadow: 0px 6px 8px 3px rgb(229 229 229 / 95%);
+  padding: 25px;
+}
+
+.Customer_Card_img {
+  border-radius: 50%;
+  height: 35%;
+}
+
+.Img_Name {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.Ahmed_Khaled {
+  font-size: small;
+  font-weight: 700;
+}
+
+.Scroll_button_right {
+  color: white;
+  background-color: rgba(61, 70, 154, 1);
+  /* width: fit-content; */
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 25px;
+}
+.Scroll_button_left {
+  background-color: white;
+  color: rgba(162 163 167);
+  width: fit-content;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.Ahemad_Customers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Circle_Img {
+  height: 400px;
+}
