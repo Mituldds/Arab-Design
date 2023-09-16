@@ -1,40 +1,41 @@
 .Stay_Connected {
-  /* background-color: rgba(237, 239, 255, 1);
-  height: 100%;
-  width: 100%; */
-
   background-color: rgba(237, 239, 255, 1);
   height: 300px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 .Stay_Connected_tag {
-  font-size: medium;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 6%;
 }
-.Signup_input {
-  border-radius: 14px;
-  width: 400px;
-  padding: 14px;
-  border: none;
-  border: 0.1px solid rgb(249 249 249);
-  margin-bottom: 6%;
-  box-shadow: 0px 25px 10px -22px rgb(229 229 229 / 40%);
 
-  appearance: none;
-  border: 1px solid #ccc;
-  padding: 5px 10px;
-  border-radius: 4px;
-  background-color: #ffffff;
-  cursor: pointer;
+.Input_Product {
+  position: relative;
+  margin-bottom: 20px;
+}
+.Signup_input {
+  border: none;
+  padding: 15px;
+  width: 400px;
+  border-radius: 15px;
 }
 
-.Signup_input,
-::placeholder {
-  color: black;
+.Signup_input_btn {
+  border: none;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background: linear-gradient(92.93deg, #797bb5 0%, #15208a 100%);
+  border-radius: 0px 15px 15px 0px;
+  width: 150px;
+  font-size: 16px;
 }
 
 .Over_Products {

@@ -8,6 +8,7 @@ import Trending from "./Trending/Trending";
 import WhyChooseUs from "./WhyChooseUS/WhyChooseUs";
 import Customers from "./Customers/Customers";
 import StayConnected from "./StayConnected/StayConnected";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <WhyChooseUs />
         <Customers />
         <StayConnected />
+        <Footer />
       </div>
     </>
   );

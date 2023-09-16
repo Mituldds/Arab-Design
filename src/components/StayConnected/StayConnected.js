@@ -1,6 +1,6 @@
 import React from "react";
 import "./StayConnected.css";
-import { FiFacebook } from "react-icons/fi";
+import { AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
 
 import { FaInstagram, FaTwitter } from "react-icons/fa";
@@ -14,20 +14,18 @@ const StayConnected = () => {
             <p className="Stay_Connected_tag">Stay Connected</p>
           </div>
 
-          {/* <div className="Input_Product"> */}
-          <input
-            type="button"
-            className="Signup_input"
-            placeholder="Enter your email for exclusive offers"
-          ></input>
-
-          {/* </div> */}
+          <div className="Input_Product">
+            <input
+              className="Signup_input"
+              placeholder="Enter your email for exclusive offers"
+            ></input>
+            <button className="Signup_input_btn">Sign Up</button>
+          </div>
 
           <div className="Stay_icon_Group">
             <BiLogoFacebook className="Stay_Icons" />
-            {/* <FiFacebook className="Stay_Icons" /> */}
             &nbsp;&nbsp;
-            <FaTwitter className="Stay_Icons_Twitter" />
+            <AiOutlineTwitter className="Stay_Icons_Twitter" />
             <FaInstagram className="Stay_Icons_Instagram" />
           </div>
         </div>

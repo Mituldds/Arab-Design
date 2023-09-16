@@ -1,0 +1,72 @@
+.Footer {
+  /* height: 300px;
+  width: 100%; */
+  background: linear-gradient(92.93deg, #797bb5 0%, #15208a 100%);
+  border-radius: 0px 158px 0px 0px;
+  color: white;
+}
+
+.Payment_to_Policy {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Pay_Visa {
+}
+
+.Stc_pay {
+}
+
+.Payment_method_Img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Footer_Icon {
+  margin-top: 40px;
+}
+
+.Footer_Icon_Location {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Footer_Icon_Call {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Footer_Icon_Mail {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Footer_Input {
+  position: relative;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.Footer_Signup_input {
+  border: none;
+  padding: 15px;
+  width: 400px;
+  border-radius: 15px;
+  margin-left: 70px;
+}
+
+.Footer_Signup_input_btn {
+  border: none;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background: linear-gradient(92.93deg, #797bb5 0%, #15208a 100%);
+  border-radius: 0px 15px 15px 0px;
+  width: 150px;
+  font-size: 16px;
+}
