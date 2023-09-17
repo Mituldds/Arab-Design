@@ -1,0 +1,16 @@
+.navbar_2 {
+  border: 0.1px solid rgb(249 249 249);
+  box-shadow: 0px 25px 10px -22px rgb(229 229 229 / 40%);
+}
+.navbar_item {
+  width: 50%;
+  margin: auto;
+}
+
+.navbar_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0px !important;
+  color: rgba(61, 70, 154, 1);
+}

@@ -1,0 +1,29 @@
+.Why_Choose_Us {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  width: 90%;
+  margin: auto;
+}
+.Secure_Transaction {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.Secure_Transaction,
+img {
+  margin: auto;
+  display: flex;
+}
+
+.Secure_Wide {
+  font-size: 25px;
+  color: rgba(61, 70, 154, 1);
+  font-weight: 500;
+}
+.Secure_Wide_Content {
+  color: rgba(61, 70, 154, 1);
+  text-align: center;
+}

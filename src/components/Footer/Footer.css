@@ -1,0 +1,84 @@
+.Footer {
+  color: white;
+  border-radius: 0px 158px 0px 0px;
+  background: var(--linear-2, linear-gradient(93deg, #797BB5 0%, #15208A 100%));
+}
+
+.Payment_to_Policy {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Pay_Visa {}
+
+.Stc_pay {}
+
+.Payment_method_Img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Footer_Icon {
+  margin-top: 40px;
+}
+
+.Footer_Icon_Location {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Footer_Icon_Call {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Footer_Icon_Mail {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Footer_Input {
+  position: relative;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding-left: 115px;
+}
+
+.Footer_Signup_input {
+  padding: 15px;
+  width: 400px;
+  border-radius: 15px;
+  /* margin-left: 70px; */
+  background-color: #797bb5;
+  border: white 1px solid;
+
+}
+
+.Footer_Signup_input_btn {
+  border: none;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  color: rgb(255, 255, 255);
+  border-radius: 0px 15px 15px 0px;
+  width: 150px;
+  font-size: 16px;
+  border: white 1px solid;
+  color: var(--Dark-purple, #3D469A);
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

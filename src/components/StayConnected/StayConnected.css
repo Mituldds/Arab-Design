@@ -1,0 +1,72 @@
+.Stay_Connected {
+  background-color: rgba(237, 239, 255, 1);
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.Stay_Connected_tag {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6%;
+}
+
+.Input_Product {
+  position: relative;
+  margin-bottom: 20px;
+}
+.Signup_input {
+  border: none;
+  padding: 15px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.Signup_input_btn {
+  border: none;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background: linear-gradient(92.93deg, #797bb5 0%, #15208a 100%);
+  border-radius: 0px 15px 15px 0px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.Over_Products {
+  color: rgba(61, 70, 154, 1);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.Stay_icon_Group {
+  display: flex;
+  align-items: center;
+}
+
+.Stay_Icons {
+  color: white;
+  background-color: rgba(61, 70, 154, 1);
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.Stay_Icons_Twitter {
+  color: rgba(61, 70, 154, 1);
+  border-radius: 50%;
+  padding: 6px;
+  font-size: 30px;
+}
+
+.Stay_Icons_Instagram {
+  color: rgba(61, 70, 154, 1);
+  border-radius: 50%;
+  padding: 6px;
+  font-size: 30px;
+}
