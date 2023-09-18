@@ -24,6 +24,17 @@
   border-radius: 15px;
 }
 
+.Signup_input,
+input::placeholder {
+  font-size: 16px;
+  color: #000000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .Signup_input_btn {
   border: none;
   padding: 15px;

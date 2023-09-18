@@ -1,28 +1,12 @@
 .Footer {
-<<<<<<< HEAD
   color: white;
   border-radius: 0px 158px 0px 0px;
-  background: var(--linear-2, linear-gradient(93deg, #797BB5 0%, #15208A 100%));
-=======
-  /* height: 300px;
-  width: 100%; */
-  background: linear-gradient(92.93deg, #797bb5 0%, #15208a 100%);
-  border-radius: 0px 158px 0px 0px;
-  color: white;
->>>>>>> d63018c45d253bae18c3dac53b84bc7f2395e7a3
+  background: var(--linear-2, linear-gradient(93deg, #797bb5 0%, #15208a 100%));
 }
 
 .Payment_to_Policy {
   display: flex;
-<<<<<<< HEAD
   justify-content: space-evenly;
-}
-
-.Pay_Visa {}
-
-.Stc_pay {}
-=======
-  justify-content: space-around;
 }
 
 .Pay_Visa {
@@ -30,7 +14,6 @@
 
 .Stc_pay {
 }
->>>>>>> d63018c45d253bae18c3dac53b84bc7f2395e7a3
 
 .Payment_method_Img {
   display: flex;
@@ -63,7 +46,6 @@
   position: relative;
   margin-bottom: 20px;
   display: inline-block;
-<<<<<<< HEAD
   padding-left: 115px;
 }
 
@@ -74,16 +56,6 @@
   /* margin-left: 70px; */
   background-color: #797bb5;
   border: white 1px solid;
-
-=======
-}
-.Footer_Signup_input {
-  border: none;
-  padding: 15px;
-  width: 400px;
-  border-radius: 15px;
-  margin-left: 70px;
->>>>>>> d63018c45d253bae18c3dac53b84bc7f2395e7a3
 }
 
 .Footer_Signup_input_btn {
@@ -93,30 +65,29 @@
   top: 0;
   bottom: 0;
   right: 0;
-<<<<<<< HEAD
   color: rgb(255, 255, 255);
   border-radius: 0px 15px 15px 0px;
   width: 150px;
   font-size: 16px;
   border: white 1px solid;
-  color: var(--Dark-purple, #3D469A);
+  color: var(--Dark-purple, #3d469a);
 }
 
-input::placeholder {
-  color: rgb(255, 255, 255);
+.Footer_Signup_input::placeholder {
   font-size: 16px;
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-=======
-  color: white;
-  background: linear-gradient(92.93deg, #797bb5 0%, #15208a 100%);
-  border-radius: 0px 15px 15px 0px;
-  width: 150px;
+.Footer_Signup_input {
   font-size: 16px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
->>>>>>> d63018c45d253bae18c3dac53b84bc7f2395e7a3
