@@ -1,0 +1,37 @@
+.MobileData_Comp {
+  position: relative;
+  margin-bottom: 50px;
+}
+.MobileData_img_page {
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+  font-size: xx-large;
+}
+
+.MobileData_img {
+  height: 100%;
+  width: 100%;
+  filter: brightness(40%);
+}
+
+.MobileData_page_card {
+  border-radius: 10px;
+  height: 100%;
+  width: 240px;
+  border: 0.1px solid rgb(249 249 249);
+  box-shadow: 0px 6px 8px 3px rgb(229 229 229 / 95%);
+  padding: 10px;
+}
+
+.MobileData_page_card,
+p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}

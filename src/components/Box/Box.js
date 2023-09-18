@@ -1,8 +1,14 @@
 import React from "react";
 import "./Box.css";
-import { Card } from "antd";
+import { useNavigate } from "react-router-dom";
 
 const Box = () => {
+  const navigate = useNavigate();
+
+  const handleMobileData = () => {
+    navigate("/mobileData");
+  };
+
   return (
     <>
       <div className="box_content">
@@ -12,7 +18,9 @@ const Box = () => {
           <div className="card_content1">
             <div className="card_size">
               <img src="./Images/Big-Data.svg" className="card_image"></img>
-              <p className="card_title">Mobile & Data</p>
+              <p className="card_title" onClick={handleMobileData}>
+                Mobile & Data
+              </p>
             </div>
 
             <div className="card_size">

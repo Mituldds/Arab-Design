@@ -2,6 +2,7 @@
   color: white;
   border-radius: 0px 158px 0px 0px;
   background: var(--linear-2, linear-gradient(93deg, #797bb5 0%, #15208a 100%));
+  margin-top: 50px;
 }
 
 .Payment_to_Policy {
