@@ -3,7 +3,7 @@
   margin-bottom: 50px;
 }
 .MobileData_img_page {
-  top: 30%;
+  top: 36%;
   left: 20%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -14,7 +14,7 @@
 .MobileData_img {
   height: 100%;
   width: 100%;
-  filter: brightness(40%);
+  filter: brightness(30%);
 }
 
 .MobileData_page_card {
@@ -26,8 +26,7 @@
   padding: 10px;
 }
 
-.MobileData_page_card,
-p {
+.MobileData_page_card_title {
   font-family: Poppins;
   font-size: 16px;
   font-weight: 500;

@@ -1,0 +1,53 @@
+.Mobily_Saudi {
+  color: #242424;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.Mobily_Saudi_Arabia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.Mobily_Saudi_img_Name {
+  display: flex;
+  align-items: center;
+}
+
+.Mobily {
+  margin: auto;
+  display: flex;
+  height: 73px;
+  width: 66px;
+}
+
+.SortBy_Dropdown {
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
+  width: 229px;
+  height: 48px;
+  flex-shrink: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SortBy_Icon {
+  font-size: 25px;
+}
+
+.SortBy_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Mobily_Saudi_Row {
+  margin-top: 30px;
+}
