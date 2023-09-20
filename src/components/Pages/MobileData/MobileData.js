@@ -6,7 +6,7 @@ import "./MobileData.css";
 const MobileData = () => {
   const navigate = useNavigate();
   const handleMobilySaudiCard = () => {
-    navigate("/mobileData/mobilySaudiCard");
+    navigate("/mobilySaudiCard");
   };
   return (
     <>

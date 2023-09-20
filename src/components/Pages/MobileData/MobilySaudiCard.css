@@ -51,3 +51,47 @@
 .Mobily_Saudi_Row {
   margin-top: 30px;
 }
+
+.Mobily_card {
+  border-radius: 10px;
+  height: 100%;
+  width: 240px;
+  border: 0.1px solid rgb(249 249 249);
+  box-shadow: 0px 6px 8px 3px rgb(229 229 229 / 95%);
+  padding: 10px;
+}
+
+.Mobily_Card_Image {
+  width: 100%;
+}
+
+.Mobily_Friendly {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.Mobily_Gaming {
+  color: rgba(61, 70, 154, 1);
+  margin: 5px 0px;
+}
+
+.Mobily_Usd_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Mobily_USD {
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Mobily_add_cart {
+  border-radius: 10px;
+  background-color: rgba(237, 239, 255, 1);
+  color: rgba(61, 70, 154, 1);
+  border: none;
+  height: 100%;
+  padding: 12px 14px 12px 14px;
+}

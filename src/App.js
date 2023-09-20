@@ -7,6 +7,8 @@ import MobileData from "./components/Pages/MobileData/MobileData";
 import MobilySaudiCard from "./components/Pages/MobileData/MobilySaudiCard";
 import Navbar3 from "./components/Navbar3/Navbar3";
 import Card from "./components/Pages/MobileData/Card";
+import MobilyCardRateDetails from "./components/Pages/MobilyCardRateDetails/MobilyCardRateDetails";
+
 function App() {
   return (
     <>
@@ -18,11 +20,12 @@ function App() {
           <Route path="/" element={<Home />} />
 
           <Route path="/mobileData" element={<MobileData />} />
+          <Route path="/mobilySaudiCard" element={<MobilySaudiCard />} />
+          <Route path="/card" element={<Card />} />
           <Route
-            path="/mobileData/mobilySaudiCard"
-            element={<MobilySaudiCard />}
+            path="/MobilyCardRateDetails"
+            element={<MobilyCardRateDetails />}
           />
-          <Route path="/mobileData/mobilySaudiCard/card" element={<Card />} />
         </Routes>
 
         <Footer />

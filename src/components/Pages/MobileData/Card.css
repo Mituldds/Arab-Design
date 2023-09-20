@@ -1,0 +1,139 @@
+.Card {
+  margin-top: 75px;
+}
+
+.Card_tag_Content {
+  margin: auto;
+  width: 85%;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4.444px 4.444px 0px #fefefe inset,
+    0px -2px 4.444px 0px rgba(211, 211, 211, 0.5) inset,
+    1px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  margin-top: -75px;
+}
+.Add_To_Cart_button {
+  border-radius: 10px;
+  background-color: rgba(237, 239, 255, 1);
+  color: rgba(61, 70, 154, 1);
+  border: none;
+  height: 100%;
+  padding: 10px 25px 10px 25px;
+
+  color: var(--Dark-purple, #3d469a);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Buy_Now_button {
+  background-color: rgba(237, 239, 255, 1);
+  border: none;
+  height: 100%;
+  padding: 10px 25px 10px 25px;
+  border-radius: 16px;
+  background: var(--linear-2, linear-gradient(93deg, #797bb5 0%, #15208a 100%));
+
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Card_Discount_btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Card_Pay {
+  border-radius: 8px;
+  background-color: #cdffcf;
+  padding: 2px 10px 2px 10px;
+}
+.Card_Content {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.Card_Like {
+  font-size: 38px;
+  margin: 25px 25px 0px 0px;
+  color: var(--Dark-purple, #3d469a);
+}
+
+.Card_Discount_Rate {
+  color: var(--Dark-purple, #3d469a);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Card_Like_Btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Card_Content_Stc {
+  color: var(--Dark-purple, #3d469a);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Mobily_Saudi_card {
+  border-radius: 10px;
+  height: 100%;
+  width: 240px;
+  border: 0.1px solid rgb(249 249 249);
+  box-shadow: 0px 6px 8px 3px rgb(229 229 229 / 95%);
+  padding: 10px;
+}
+
+.Mobily_Saudi_Card_Image {
+  width: 100%;
+}
+
+.Mobily_Saudi_Friendly {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.Mobily_Saudi_Gaming {
+  color: rgba(61, 70, 154, 1);
+  margin: 5px 0px;
+}
+
+.Mobily_Saudi_Usd_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Mobily_Saudi_USD {
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Mobily_Saudi_add_cart {
+  border-radius: 10px;
+  background-color: rgba(237, 239, 255, 1);
+  color: rgba(61, 70, 154, 1);
+  border: none;
+  height: 100%;
+  padding: 12px 14px 12px 14px;
+}
+
+.You_May_Also_Like {
+  margin-top: 70px;
+}
+
+.You_May_Also_Like_Heading {
+  text-align: right;
+  width: 22%;
+}

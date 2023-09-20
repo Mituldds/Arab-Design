@@ -9,7 +9,7 @@ const MobilySaudiCard = () => {
   const navigate = useNavigate();
 
   const handleCard = () => {
-    navigate("/mobileData/mobilySaudiCard/card");
+    navigate("/card");
   };
 
   const items = [
@@ -79,19 +79,19 @@ const MobilySaudiCard = () => {
       <div className="Mobily_Saudi_Row">
         <Row gutter={[40, 50]} justify="center" style={{ margin: 0 }}>
           <Col>
-            <div className="card">
+            <div className="Mobily_card">
               <img
-                className="Card_Image"
+                className="Mobily_Card_Image"
                 src="/Images/Mask group.svg"
                 onClick={handleCard}
               />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
+              <p className="Mobily_Friendly">Friendly mobile</p>
+              <p className="Mobily_Gaming">Gaming</p>
 
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
+              <div className="Mobily_Usd_btn">
+                <p className="Mobily_USD">120 USD </p>
                 <span>
-                  <button type="button" className="add_cart">
+                  <button type="button" className="Mobily_add_cart">
                     <BsCartXFill />
                     &nbsp;&nbsp; Add
                   </button>
