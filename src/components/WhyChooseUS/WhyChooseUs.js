@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
 
       <div className="Secure_Transaction">
         <div>
-          <img src="Images/Group 106.svg" />
+          <img className="Secure_Transaction_Img" src="Images/Group 106.svg" />
           <p className="Secure_Wide">Secure Transactions</p>
           <p className="Secure_Wide_Content">
             Guaranteed safe and secure

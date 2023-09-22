@@ -2,8 +2,13 @@ import React from "react";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import "./MobilyCardRateDetails.css";
 import { cartDetails } from "./Content";
-
+import { useNavigate } from "react-router-dom";
 const MobilyCardRateDetails = () => {
+  const navigate = useNavigate();
+
+  const handleCheckOut = () => {
+    navigate("/paymentOrder");
+  };
   return (
     <>
       {cartDetails.map((data) => (
@@ -67,7 +72,12 @@ const MobilyCardRateDetails = () => {
           Continue Shopping{" "}
         </button>
 
-        <button className="Cart_Rate_Discount_Checkout_Btn">Checkout</button>
+        <button
+          className="Cart_Rate_Discount_Checkout_Btn"
+          onClick={handleCheckOut}
+        >
+          Checkout
+        </button>
       </div>
     </>
   );

@@ -8,6 +8,7 @@ import MobilySaudiCard from "./components/Pages/MobileData/MobilySaudiCard";
 import Navbar3 from "./components/Navbar3/Navbar3";
 import Card from "./components/Pages/MobileData/Card";
 import MobilyCardRateDetails from "./components/Pages/MobilyCardRateDetails/MobilyCardRateDetails";
+import PaymentOrder from "./components/Pages/MobileData/PaymentOrder/PaymentOrder";
 
 function App() {
   return (
@@ -18,7 +19,6 @@ function App() {
         <Navbar3 />
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="/mobileData" element={<MobileData />} />
           <Route path="/mobilySaudiCard" element={<MobilySaudiCard />} />
           <Route path="/card" element={<Card />} />
@@ -26,6 +26,7 @@ function App() {
             path="/MobilyCardRateDetails"
             element={<MobilyCardRateDetails />}
           />
+          <Route path="/paymentOrder" element={<PaymentOrder />} />
         </Routes>
 
         <Footer />

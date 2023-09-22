@@ -1,0 +1,91 @@
+.Payment_Order {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Payment_Method {
+  padding: 12px 16px;
+  border-radius: 16px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.Payment_Method_Div {
+  width: 68%;
+}
+.Payment_Order_Summary {
+  width: 45;
+}
+.Payment_Method_PayNow {
+  border-radius: 16px;
+  background: var(--linear-2, linear-gradient(93deg, #797bb5 0%, #15208a 100%));
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  border: none;
+  color: white;
+  height: 48px;
+  width: 20%;
+}
+
+.Payment_Order_Card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+  box-shadow: 1px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  padding: 10px;
+  margin: auto;
+  width: 25%;
+  height: 180px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.Payment_Order_Card_ImgCard {
+  margin: 0px;
+  height: 95px;
+  width: 95px;
+}
+
+.Payment_Order_Card_Content {
+  text-align: center;
+  width: 30%;
+}
+
+.Payment_Order_Card_Categories {
+  color: rgba(61, 70, 154, 1);
+}
+
+.Increment_Decrement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.Inc_Dec_btn {
+  border-radius: 4px;
+  background: var(--bg-purple-lighter, #edefff);
+
+  color: var(--Dark-purple, #3d469a);
+  text-align: center;
+  /* font-family: Poppins; */
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+
+.Payment_order_Card_icon {
+  /* width: 10%; */
+}
+
+.Payment_order_Card_Delete_Btn {
+  font-size: 23px;
+  color: #ff5c5c;
+}

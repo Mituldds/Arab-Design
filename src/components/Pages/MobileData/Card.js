@@ -11,7 +11,6 @@ const Card = () => {
   const navigate = useNavigate();
 
   const handleBuyCart = () => {
-    // navigate("/mobileData/mobilySaudiCard/card/MobilyCardRateDetails");
     navigate("/MobilyCardRateDetails");
   };
 

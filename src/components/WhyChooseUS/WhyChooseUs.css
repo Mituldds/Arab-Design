@@ -12,8 +12,7 @@
   justify-content: space-between;
 }
 
-.Secure_Transaction,
-img {
+.Secure_Transaction_Img {
   margin: auto;
   display: flex;
 }

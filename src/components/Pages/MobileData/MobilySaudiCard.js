@@ -4,6 +4,7 @@ import { Button, Col, Dropdown, Row } from "antd";
 import { IoIosArrowDown } from "react-icons/io";
 import { BsCartXFill } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
+import { TrendingCard } from "../../Trending/TrendingCardContent";
 
 const MobilySaudiCard = () => {
   const navigate = useNavigate();
@@ -78,358 +79,360 @@ const MobilySaudiCard = () => {
 
       <div className="Mobily_Saudi_Row">
         <Row gutter={[40, 50]} justify="center" style={{ margin: 0 }}>
-          <Col>
-            <div className="Mobily_card">
-              <img
-                className="Mobily_Card_Image"
-                src="/Images/Mask group.svg"
-                onClick={handleCard}
-              />
-              <p className="Mobily_Friendly">Friendly mobile</p>
-              <p className="Mobily_Gaming">Gaming</p>
+          {TrendingCard.map((data) => (
+            <Col>
+              <div className="Mobily_card" key={data.id}>
+                <img
+                  className="Mobily_Card_Image"
+                  src={data.imageUrl}
+                  onClick={handleCard}
+                />
+                <p className="Mobily_Friendly">{data.title}</p>
+                <p className="Mobily_Gaming">{data.Categories}</p>
 
-              <div className="Mobily_Usd_btn">
-                <p className="Mobily_USD">120 USD </p>
-                <span>
-                  <button type="button" className="Mobily_add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
+                <div className="Mobily_Usd_btn">
+                  <p className="Mobily_USD">{data.Rate} USD </p>
+                  <span>
+                    <button type="button" className="Mobily_add_cart">
+                      <BsCartXFill />
+                      &nbsp;&nbsp; Add
+                    </button>
+                  </span>
+                </div>
               </div>
-            </div>
-          </Col>
-
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (2).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (3).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (9).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (5).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (6).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (7).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (8).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (9).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (1).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (2).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (3).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (5).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (6).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (7).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (8).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (9).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (1).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (3).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
-
-          <Col>
-            <div className="card">
-              <img className="Card_Image" src="/Images/Mask group (2).svg" />
-              <p className="Friendly">Friendly mobile</p>
-              <p className="Gaming">Gaming</p>
-
-              <div className="Usd_btn">
-                <p className="USD">120 USD </p>
-                <span>
-                  <button type="button" className="add_cart">
-                    <BsCartXFill />
-                    &nbsp;&nbsp; Add
-                  </button>
-                </span>
-              </div>
-            </div>
-          </Col>
+            </Col>
+          ))}
         </Row>
       </div>
+
+      {/* <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (2).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (3).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (9).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (5).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (6).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (7).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (8).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (9).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (1).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (2).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (3).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (5).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (6).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (7).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (8).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (9).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (1).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (3).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col>
+
+          <Col>
+            <div className="card">
+              <img className="Card_Image" src="/Images/Mask group (2).svg" />
+              <p className="Friendly">Friendly mobile</p>
+              <p className="Gaming">Gaming</p>
+
+              <div className="Usd_btn">
+                <p className="USD">120 USD </p>
+                <span>
+                  <button type="button" className="add_cart">
+                    <BsCartXFill />
+                    &nbsp;&nbsp; Add
+                  </button>
+                </span>
+              </div>
+            </div>
+          </Col> */}
     </>
   );
 };
