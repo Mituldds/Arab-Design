@@ -27,6 +27,7 @@ const PaymentOrder = () => {
           <div>
             <h3>Payment Method</h3>
           </div>
+
           {cartDetails.map((data) => (
             <div className="Payment_Order_Card" key={data.id}>
               <div className="Payment_Order_Card_img">
@@ -37,8 +38,8 @@ const PaymentOrder = () => {
               </div>
 
               <div className="Payment_Order_Card_Content">
-                <p>{data.title}</p>
-                <h4>{data.total} USD</h4>
+                <p className="Payment_Order_Card_Title">{data.title}</p>
+                <h4 className="Payment_Order_Card_Total">{data.total} USD</h4>
 
                 <div className="Increment_Decrement">
                   <button className="Inc_Dec_btn">-</button>
@@ -50,10 +51,10 @@ const PaymentOrder = () => {
               <div className="Payment_order_Card_icon"></div>
               <RiDeleteBin6Line className="Payment_order_Card_Delete_Btn" />
               <hr />
-              <div>
+              {/* <div>
                 <p>Total</p>
                 <p>480.8 USD</p>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

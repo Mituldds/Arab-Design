@@ -11,7 +11,7 @@
   margin-bottom: 20px;
 }
 .Payment_Method_Div {
-  width: 68%;
+  width: 65%;
 }
 .Payment_Order_Summary {
   width: 45;
@@ -31,30 +31,32 @@
 
 .Payment_Order_Card {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-radius: 16px;
   border: 1px solid #dfdfdf;
   background: #fff;
   box-shadow: 1px 3px 4px 0px rgba(0, 0, 0, 0.16);
   padding: 10px;
-  margin: auto;
-  width: 25%;
-  height: 180px;
   margin-bottom: 20px;
-  width: 100%;
+  align-items: center;
+  justify-content: space-around;
 }
 .Payment_Order_Card_ImgCard {
   margin: 0px;
-  height: 95px;
-  width: 95px;
+  height: 120px;
+  width: 130px;
 }
 
 .Payment_Order_Card_Content {
   text-align: center;
-  width: 30%;
+  width: 50%;
 }
 
+.Payment_Order_Card_Title {
+}
+
+.Payment_Order_Card_Total {
+  margin: 0%;
+}
 .Payment_Order_Card_Categories {
   color: rgba(61, 70, 154, 1);
 }
@@ -73,7 +75,6 @@
 
   color: var(--Dark-purple, #3d469a);
   text-align: center;
-  /* font-family: Poppins; */
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
@@ -82,10 +83,10 @@
 }
 
 .Payment_order_Card_icon {
-  /* width: 10%; */
 }
 
 .Payment_order_Card_Delete_Btn {
   font-size: 23px;
   color: #ff5c5c;
+  width: 12%;
 }

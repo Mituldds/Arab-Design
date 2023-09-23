@@ -1,0 +1,66 @@
+.Contact_Us {
+  display: flex;
+  justify-content: end;
+}
+.Contact_Us_P {
+  color: #242424;
+  /* font-family: Poppins; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.Contact_Us_Content {
+  width: 50%;
+}
+.Contact_Us_input {
+  border-radius: 16px;
+  border: 1px solid #242424;
+  background: #fff;
+  width: 654px;
+  height: 38px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+}
+
+.Contact_Us_Subject {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Contact_Us_SubName {
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 1px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  padding: 15px 32px 15px 32px;
+  margin: 0%;
+}
+
+.Contact_Us_Msg {
+}
+
+.Contact_Us_Textarea {
+  height: 140px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.Conatct_Us_Send {
+  color: white;
+  border: none;
+  padding: 10px 60px 10px 60px;
+  border-radius: 16px;
+  background: var(--linear-2, linear-gradient(93deg, #797bb5 0%, #15208a 100%));
+}
+
+.Conatct_Us_Send_Btn {
+  display: flex;
+  justify-content: end;
+}
+
+.Contact_Us_Img1 {
+  background-image: url("/public/Images/Vector.svg");
+  width: 396px;
+  height: 300px;
+}

@@ -9,6 +9,7 @@ import Navbar3 from "./components/Navbar3/Navbar3";
 import Card from "./components/Pages/MobileData/Card";
 import MobilyCardRateDetails from "./components/Pages/MobilyCardRateDetails/MobilyCardRateDetails";
 import PaymentOrder from "./components/Pages/MobileData/PaymentOrder/PaymentOrder";
+import ConatctUs from "./components/ContactUs/ConatctUs";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             element={<MobilyCardRateDetails />}
           />
           <Route path="/paymentOrder" element={<PaymentOrder />} />
+          <Route path="/contactUs" element={<ConatctUs />} />
         </Routes>
 
         <Footer />

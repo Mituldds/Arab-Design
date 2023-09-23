@@ -32,12 +32,14 @@ const MobileData = () => {
             </p>
           </div>
         </Col>
+
         <Col className="gutter-row">
           <div className="MobileData_page_card">
             <img src="/Images/Stc_Bahrain_logo.svg" />
             <p className="MobileData_page_card_title">STC Bahrin </p>
           </div>
         </Col>
+
         <Col className="gutter-row">
           <div className="MobileData_page_card">
             <img src="/Images/downloadEtislat.svg" />

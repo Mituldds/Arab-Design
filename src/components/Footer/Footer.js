@@ -1,10 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Footer.css";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { TbPhoneCall } from "react-icons/tb";
 import { FiMail } from "react-icons/fi";
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const handleContactUs = () => {
+    navigate("/contactUs");
+  };
+
   return (
     <>
       <div className="Footer">
@@ -38,7 +44,7 @@ const Footer = () => {
           <div className="">
             <h4>Information</h4>
             <p>About Us</p>
-            <p>Contact Us</p>
+            <p onClick={handleContactUs}>Contact Us</p>
           </div>
 
           <div>
