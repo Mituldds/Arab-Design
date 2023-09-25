@@ -80,8 +80,8 @@ const MobilySaudiCard = () => {
       <div className="Mobily_Saudi_Row">
         <Row gutter={[40, 50]} justify="center" style={{ margin: 0 }}>
           {TrendingCard.map((data) => (
-            <Col>
-              <div className="Mobily_card" key={data.id}>
+            <Col key={data.id}>
+              <div className="Mobily_card">
                 <img
                   className="Mobily_Card_Image"
                   src={data.imageUrl}

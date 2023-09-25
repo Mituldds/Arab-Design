@@ -73,7 +73,7 @@ const MobilyCardRateDetails = () => {
         </button>
 
         <button
-          className="Cart_Rate_Discoun  t_Checkout_Btn"
+          className="Cart_Rate_Discount_Checkout_Btn"
           onClick={handleCheckOut}
         >
           Checkout
