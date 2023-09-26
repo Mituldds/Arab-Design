@@ -1,0 +1,91 @@
+.Order_History_Details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 16px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+  box-shadow: 1px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  padding: 10px;
+  margin: auto;
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+.Order_History {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 36%;
+  margin-bottom: 50px;
+}
+.Order_History_Heading {
+  margin: 0px;
+}
+
+.Order_History_img_Content {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.Order_History_Details_img {
+  width: 50%;
+}
+
+.Order_History_Details_Content {
+  width: 40%;
+}
+.Order_History_Details_ImgCard {
+  margin: 0px;
+}
+
+.Order_History_Details_Categories {
+  color: rgba(61, 70, 154, 1);
+}
+
+.Order_History_Quantity {
+  text-align: center;
+  width: 20%;
+}
+
+.Order_History_Increment_Decrement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.Order_History_Inc_Dec_btn {
+  border-radius: 4px;
+  background: var(--bg-purple-lighter, #edefff);
+
+  color: var(--Dark-purple, #3d469a);
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+.Order_History_Total {
+  text-align: center;
+  width: 20%;
+}
+
+.Order_History_Delete_Btn {
+  font-size: 23px;
+  color: #ff5c5c;
+}
+
+.Order_History_icon {
+  width: 10%;
+}
+
+.Order_History_Buy_Again {
+  color: white;
+  border-radius: 8px;
+  border: none;
+  background: var(--linear-2, linear-gradient(93deg, #797bb5 0%, #15208a 100%));
+  padding: 10px;
+}

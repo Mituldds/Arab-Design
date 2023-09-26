@@ -1,14 +1,19 @@
+.My_Account_Width {
+  width: 70%;
+}
+
 .My_Account {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 50%;
+  width: 60%;
   margin-bottom: 50px;
 }
 
 .My_Acc_Btn_icon {
   align-items: center;
 }
+
 .My_Acc_Edit_btn {
   border-radius: 10px;
   background-color: rgba(237, 239, 255, 1);
@@ -21,6 +26,7 @@
   font-size: 15px;
   font-weight: 700;
 }
+
 .My_Acc_Edit_icon {
   font-size: 20px;
   align-items: center;
@@ -43,6 +49,7 @@
   border: none;
   padding: 10px;
   border-radius: 8px;
+  width: 90%;
 }
 
 .My_Acc_Fields {
@@ -68,25 +75,25 @@
   background: #fff;
   padding: 20px;
   width: 15%;
-
-  /* shadow 1 */
   box-shadow: 0px 4.444px 4.444px 0px #fefefe inset,
     0px -2px 4.444px 0px rgba(211, 211, 211, 0.5) inset,
     0px 2px 4px 0px rgba(0, 0, 0, 0.16);
+  height: 20%;
+  margin-top: 80px;
 }
 
 .My_Acc_Option {
   display: flex;
   align-items: center;
   margin: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
+  padding: 10px;
   width: 89%;
 }
 .My_Acc_Option:hover {
   background-color: #ffffff;
   color: var(--Dark-purple, #3d469a);
   background-color: rgba(237, 239, 255, 1);
-  padding: 15px;
   border-radius: 16px;
 }
 

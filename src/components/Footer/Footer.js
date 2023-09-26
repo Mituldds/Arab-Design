@@ -35,7 +35,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="My_Account">
+          <div className="My_Account_footer">
             <h4>My Account</h4>
             <p>Log In</p>
             <p>Sign Up</p>

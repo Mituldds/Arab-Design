@@ -1,0 +1,68 @@
+.My_Fevorites_Comp {
+  width: 70%;
+  height: 50%;
+}
+.My_Fevorites {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-bottom: 50px;
+  /* 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 38%;
+  margin-bottom: 50px; */
+}
+.My_Fevorites_Heading {
+  margin: 0px;
+}
+
+.My_Favorites_Row {
+  margin-top: 30px;
+}
+
+.My_Favorites_card {
+  border-radius: 10px;
+  height: 100%;
+  width: 240px;
+  border: 0.1px solid rgb(249 249 249);
+  box-shadow: 0px 6px 8px 3px rgb(229 229 229 / 95%);
+  padding: 10px;
+}
+
+.My_Favorites_Card_Image {
+  width: 100%;
+}
+
+.My_Favorites_Friendly {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.My_Favorites_Gaming {
+  color: rgba(61, 70, 154, 1);
+  margin: 5px 0px;
+}
+
+.My_Favorites_Usd_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.My_Favorites_USD {
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.My_Favorites_add_cart {
+  border-radius: 10px;
+  background-color: rgba(237, 239, 255, 1);
+  color: rgba(61, 70, 154, 1);
+  border: none;
+  height: 100%;
+  padding: 12px 14px 12px 14px;
+}

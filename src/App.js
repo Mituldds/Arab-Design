@@ -11,6 +11,7 @@ import MobilyCardRateDetails from "./components/Pages/MobilyCardRateDetails/Mobi
 import PaymentOrder from "./components/Pages/MobileData/PaymentOrder/PaymentOrder";
 import ConatctUs from "./components/ContactUs/ConatctUs";
 import MyAccount from "./components/MyAccount/MyAccount";
+import MyFavorites from "./components/MyAccount/MyFavorites";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/paymentOrder" element={<PaymentOrder />} />
           <Route path="/contactUs" element={<ConatctUs />} />
           <Route path="/myAccount" element={<MyAccount />} />
+          <Route path="/myFavorites" element={<MyFavorites />} />
         </Routes>
 
         <Footer />

@@ -2,12 +2,14 @@ import { useNavigate } from "react-router-dom";
 import React from "react";
 import { Col, Row } from "antd";
 import "./MobileData.css";
+import { MobileDataContent } from "../MobileData/MobileDataContent";
 
 const MobileData = () => {
   const navigate = useNavigate();
   const handleMobilySaudiCard = () => {
     navigate("/mobilySaudiCard");
   };
+
   return (
     <>
       <div className="MobileData_Comp">
@@ -21,122 +23,19 @@ const MobileData = () => {
       </div> */}
 
       <Row gutter={[25, 50]} justify="center" style={{ margin: 0 }}>
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/Mobily.svg" />
-            <p
-              className="MobileData_page_card_title"
-              onClick={handleMobilySaudiCard}
-            >
-              Mobily Saudi Arabia{" "}
-            </p>
-          </div>
-        </Col>
-
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/Stc_Bahrain_logo.svg" />
-            <p className="MobileData_page_card_title">STC Bahrin </p>
-          </div>
-        </Col>
-
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/downloadEtislat.svg" />
-            <p className="MobileData_page_card_title">Etisalat UAE </p>
-          </div>
-        </Col>
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/7030 1.svg" />
-            <p className="MobileData_page_card_title">Zain Saudi Arabia </p>
-          </div>
-        </Col>
-
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/Mobily.svg" />
-            <p className="MobileData_page_card_title">Mobily Saudi Arabia </p>
-          </div>
-        </Col>
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/Stc_Bahrain_logo.svg" />
-            <p
-              className="MobileData_page_card_title"
-              MobileData_page_card_title
-            >
-              STC Bahrin{" "}
-            </p>
-          </div>
-        </Col>
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/downloadEtislat.svg" />
-            <p
-              className="MobileData_page_card_title"
-              MobileData_page_card_title
-            >
-              Etisalat UAE{" "}
-            </p>
-          </div>
-        </Col>
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/7030 1.svg" />
-            <p
-              className="MobileData_page_card_title"
-              MobileData_page_card_title
-            >
-              Zain Saudi Arabia{" "}
-            </p>
-          </div>
-        </Col>
-
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/Mobily.svg" />
-            <p
-              className="MobileData_page_card_title"
-              MobileData_page_card_title
-            >
-              Mobily Saudi Arabia{" "}
-            </p>
-          </div>
-        </Col>
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/Stc_Bahrain_logo.svg" />
-            <p
-              className="MobileData_page_card_title"
-              MobileData_page_card_title
-            >
-              STC Bahrin{" "}
-            </p>
-          </div>
-        </Col>
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/downloadEtislat.svg" />
-            <p
-              className="MobileData_page_card_title"
-              MobileData_page_card_title
-            >
-              Etisalat UAE{" "}
-            </p>
-          </div>
-        </Col>
-        <Col className="gutter-row">
-          <div className="MobileData_page_card">
-            <img src="/Images/7030 1.svg" />
-            <p
-              className="MobileData_page_card_title"
-              MobileData_page_card_title
-            >
-              Zain Saudi Arabia{" "}
-            </p>
-          </div>
-        </Col>
+        {MobileDataContent.map((Data) => (
+          <Col className="gutter-row">
+            <div className="MobileData_page_card">
+              <img src={Data.imgUrl} />
+              <p
+                className="MobileData_page_card_title"
+                onClick={handleMobilySaudiCard}
+              >
+                {Data.MobileDataTitle}{" "}
+              </p>
+            </div>
+          </Col>
+        ))}
       </Row>
     </>
   );

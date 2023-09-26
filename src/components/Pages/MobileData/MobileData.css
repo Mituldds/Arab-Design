@@ -24,6 +24,10 @@
   border: 0.1px solid rgb(249 249 249);
   box-shadow: 0px 6px 8px 3px rgb(229 229 229 / 95%);
   padding: 10px;
+  text-align: center;
+}
+.MobileData_page_card img {
+  height: 120px;
 }
 
 .MobileData_page_card_title {

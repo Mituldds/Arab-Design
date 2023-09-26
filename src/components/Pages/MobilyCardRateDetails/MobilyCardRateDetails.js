@@ -3,6 +3,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import "./MobilyCardRateDetails.css";
 import { cartDetails } from "./Content";
 import { useNavigate } from "react-router-dom";
+
 const MobilyCardRateDetails = () => {
   const navigate = useNavigate();
 
