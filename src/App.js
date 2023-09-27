@@ -12,12 +12,14 @@ import PaymentOrder from "./components/Pages/MobileData/PaymentOrder/PaymentOrde
 import ConatctUs from "./components/ContactUs/ConatctUs";
 import MyAccount from "./components/MyAccount/MyAccount";
 import MyFavorites from "./components/MyAccount/MyFavorites";
+import LoginHome from "./components/LoginPage/LoginHome";
 
 function App() {
   return (
     <>
       <Router>
-        <Navbar1 />
+        <LoginHome />
+        {/* <Navbar1 />
         <Navbar2 />
         <Navbar3 />
         <Routes>
@@ -35,7 +37,7 @@ function App() {
           <Route path="/myFavorites" element={<MyFavorites />} />
         </Routes>
 
-        <Footer />
+        <Footer /> */}
       </Router>
     </>
   );
