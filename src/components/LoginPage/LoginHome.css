@@ -27,10 +27,31 @@
 }
 
 .LoginHome_Page {
-  background-image: url("/public/Images/Vector (1).svg");
+  /* background-image: url("/public/Images/Vector (1).svg"); */
   /* background-image: url("/public/Images/Vector (2).svg"); */
 
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ================================================================== */
+
+.LoginHome_Right_Img {
+  height: 340px;
+  width: 200px;
+  position: absolute;
+  right: 0;
+}
+
+.LoginHome_Left_Img {
+  height: 340px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }

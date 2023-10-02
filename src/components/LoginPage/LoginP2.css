@@ -1,0 +1,28 @@
+.Loginp2_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.Loginp2_GoTo {
+  border-radius: 16px;
+  background: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 40px;
+  width: 250px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
+}
+
+.Loginp2_Input {
+  border-radius: 16px;
+  border: 1px solid #242424;
+  background: #fff;
+  width: 300px;
+  padding: 10px;
+}
