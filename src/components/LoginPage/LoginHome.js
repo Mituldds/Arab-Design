@@ -28,10 +28,10 @@ const LoginHome = () => {
         <div className="LoginHome_Page">
           <div>
             {/* <LoginP1 /> */}
-            <LoginP2 />
-            {/* <LoginP3 />
-            <LoginP4 />
-            <LoginP5 /> */}
+            {/* <LoginP2 /> */}
+            <LoginP3 />
+            {/* <LoginP4 /> */}
+            {/* <LoginP5 /> */}
           </div>
         </div>
 

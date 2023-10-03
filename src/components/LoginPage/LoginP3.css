@@ -1,0 +1,48 @@
+.LoginP3_fields {
+  display: flex;
+  gap: 20px;
+}
+
+.LoginP3_Input {
+  width: 250px;
+  height: 30px;
+  border-radius: 16px;
+  border-radius: 16px;
+  border: 1px solid #242424;
+  background: #fff;
+  margin-bottom: 10px;
+  font-size: medium;
+  padding: 5px;
+}
+.LoginP3_p {
+  color: #242424;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.LoginP3_cheakbox {
+  margin-top: 20px;
+}
+
+.LoginP3_Continue {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 16px;
+  background: var(--linear-2, linear-gradient(93deg, #797bb5 0%, #15208a 100%));
+  border: none;
+  height: 40px;
+  width: 300px;
+}
+
+.LoginP3_Btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

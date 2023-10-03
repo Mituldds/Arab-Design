@@ -12,13 +12,39 @@ const PaymentOrder = () => {
             <h3>Payment Method</h3>
           </div>
           <div className="Payment_Method">
-            <p>Debit/Credit Card</p>
+            <div className="dropbtn">Debit/Credit Card</div>
+
+            <div class="dropdown-content">
+              <p>Card Number</p>
+              <input className="Payment_Method_Input" type="text" />
+              <p>Name on Card</p>
+              <input className="Payment_Method_Input" />
+              <div className="Payment_Method_Expiration">
+                <div>
+                  <p>Expiration Date</p>
+                  <input
+                    className="Payment_Method_Expiration_Input"
+                    type="text"
+                  />
+                </div>
+                <div>
+                  <p>Security Code</p>
+                  <input className="Payment_Method_Expiration_Input" />
+                </div>
+              </div>
+            </div>
           </div>
+
           <br />
+          {/* <div className="Payment_Method">
+            <div className="dropbtn">Cryptocurrency</div>
+            <div class="dropdown-content"></div>
+          </div> */}
+
           <div className="Payment_Method">
             <p>Cryptocurrency</p>
           </div>
-          <div>
+          <div className="Payment_Method_PayNow_Btn">
             <button className="Payment_Method_PayNow">Pay Now</button>
           </div>
         </div>

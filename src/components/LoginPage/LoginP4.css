@@ -1,0 +1,45 @@
+.LoginP4_verification {
+  color: #242424;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.LoginP4_verification_P {
+  color: #242424;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* margin: 45px; */
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.LoginP4_Verify {
+  border-radius: 16px;
+  background: #a6b6d5;
+  border: none;
+  width: 250px;
+  height: 40px;
+}
+
+.LoginP4_Btn {
+  text-align: center;
+}
+
+.LoginP4_Auth_Digit {
+  border-radius: 8px;
+  border: 1px solid #242424;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+}
+
+.LoginP4_Auth_Main {
+  display: flex;
+  justify-content: space-evenly;
+}

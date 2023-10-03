@@ -1,0 +1,51 @@
+.LoginP5_verification {
+  color: #242424;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.LoginP5_verification_P {
+  color: #242424;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* margin: 45px; */
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.LoginP5_Verify {
+  border-radius: 16px;
+  background: var(--linear-2, linear-gradient(93deg, #797bb5 0%, #15208a 100%));
+  border: none;
+  width: 250px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.LoginP5_Btn {
+  text-align: center;
+}
+
+.LoginP5_Auth_Digit {
+  border-radius: 8px;
+  border: 1px solid #242424;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+}
+
+.LoginP5_Auth_Main {
+  display: flex;
+  justify-content: space-evenly;
+}

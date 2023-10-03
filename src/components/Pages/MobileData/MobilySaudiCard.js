@@ -22,7 +22,7 @@ const MobilySaudiCard = () => {
           rel="noopener noreferrer"
           //   href="https://www.antgroup.com"
         >
-          1st menu item
+          Recently Added
         </a>
       ),
     },
@@ -34,7 +34,7 @@ const MobilySaudiCard = () => {
           rel="noopener noreferrer"
           //   href="https://www.aliyun.com"
         >
-          2nd menu item
+          Best selling
         </a>
       ),
     },
@@ -46,7 +46,19 @@ const MobilySaudiCard = () => {
           rel="noopener noreferrer"
           //   href="https://www.luohanacademy.com"
         >
-          3rd menu item
+          Price Ascending
+        </a>
+      ),
+    },
+    {
+      key: "3",
+      label: (
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          //   href="https://www.luohanacademy.com"
+        >
+          Price Descending
         </a>
       ),
     },

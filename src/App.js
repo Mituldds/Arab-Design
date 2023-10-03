@@ -18,8 +18,8 @@ function App() {
   return (
     <>
       <Router>
-        <LoginHome />
-        {/* <Navbar1 />
+        {/* <LoginHome /> */}
+        <Navbar1 />
         <Navbar2 />
         <Navbar3 />
         <Routes>
@@ -37,7 +37,7 @@ function App() {
           <Route path="/myFavorites" element={<MyFavorites />} />
         </Routes>
 
-        <Footer /> */}
+        <Footer />
       </Router>
     </>
   );
