@@ -13,31 +13,89 @@ import ConatctUs from "./components/ContactUs/ConatctUs";
 import MyAccount from "./components/MyAccount/MyAccount";
 import MyFavorites from "./components/MyAccount/MyFavorites";
 import LoginHome from "./components/LoginPage/LoginHome";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
     <>
       <Router>
         {/* <LoginHome /> */}
-        <Navbar1 />
-        <Navbar2 />
-        <Navbar3 />
+
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/mobileData" element={<MobileData />} />
-          <Route path="/mobilySaudiCard" element={<MobilySaudiCard />} />
-          <Route path="/card" element={<Card />} />
+          <Route path="/login" element={<LoginHome />} />
+          <Route
+            path="/"
+            element={
+              <Layout>
+                <Home />
+              </Layout>
+            }
+          />
+          <Route
+            path="/mobileData"
+            element={
+              <Layout>
+                <MobileData />
+              </Layout>
+            }
+          />
+          <Route
+            path="/mobilySaudiCard"
+            element={
+              <Layout>
+                <MobilySaudiCard />
+              </Layout>
+            }
+          />
+          <Route
+            path="/card"
+            element={
+              <Layout>
+                <Card />
+              </Layout>
+            }
+          />
           <Route
             path="/MobilyCardRateDetails"
-            element={<MobilyCardRateDetails />}
+            element={
+              <Layout>
+                <MobilyCardRateDetails />
+              </Layout>
+            }
           />
-          <Route path="/paymentOrder" element={<PaymentOrder />} />
-          <Route path="/contactUs" element={<ConatctUs />} />
-          <Route path="/myAccount" element={<MyAccount />} />
-          <Route path="/myFavorites" element={<MyFavorites />} />
+          <Route
+            path="/paymentOrder"
+            element={
+              <Layout>
+                <PaymentOrder />
+              </Layout>
+            }
+          />
+          <Route
+            path="/contactUs"
+            element={
+              <Layout>
+                <ConatctUs />
+              </Layout>
+            }
+          />
+          <Route
+            path="/myAccount"
+            element={
+              <Layout>
+                <MyAccount />
+              </Layout>
+            }
+          />
+          <Route
+            path="/myFavorites"
+            element={
+              <Layout>
+                <MyFavorites />
+              </Layout>
+            }
+          />
         </Routes>
-
-        <Footer />
       </Router>
     </>
   );

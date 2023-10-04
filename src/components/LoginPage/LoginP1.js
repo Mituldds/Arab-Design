@@ -1,7 +1,10 @@
 import React from "react";
 import "./LoginP1.css";
+import { useNavigate } from "react-router-dom";
 
 const LoginP1 = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <div>

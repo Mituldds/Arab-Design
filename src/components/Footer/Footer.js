@@ -11,6 +11,10 @@ const Footer = () => {
     navigate("/contactUs");
   };
 
+  const handleLoginForm = () => {
+    navigate("/login");
+  };
+
   return (
     <>
       <div className="Footer">
@@ -37,7 +41,7 @@ const Footer = () => {
           </div>
           <div className="My_Account_footer">
             <h4>My Account</h4>
-            <p>Log In</p>
+            <p onClick={handleLoginForm}>Log In</p>
             <p>Sign Up</p>
           </div>
 
