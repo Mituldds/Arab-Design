@@ -29,9 +29,9 @@ const LoginHome = () => {
           <div>
             {/* <LoginP1 /> */}
             {/* <LoginP2 /> */}
-            <LoginP3 />
+            {/* <LoginP3 /> */}
             {/* <LoginP4 /> */}
-            {/* <LoginP5 /> */}
+            <LoginP5 />
           </div>
         </div>
 

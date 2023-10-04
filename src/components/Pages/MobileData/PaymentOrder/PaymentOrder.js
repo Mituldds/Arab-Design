@@ -2,6 +2,9 @@ import React from "react";
 import "./PaymentOrder.css";
 import { cartDetails } from "../../MobilyCardRateDetails/Content";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import { FaBitcoin, FaEthereum } from "react-icons/fa";
+import { TbBrandBinance } from "react-icons/tb";
+import { BiShieldQuarter } from "react-icons/bi";
 
 const PaymentOrder = () => {
   return (
@@ -11,9 +14,9 @@ const PaymentOrder = () => {
           <div>
             <h3>Payment Method</h3>
           </div>
+
           <div className="Payment_Method">
             <div className="dropbtn">Debit/Credit Card</div>
-
             <div class="dropdown-content">
               <p>Card Number</p>
               <input className="Payment_Method_Input" type="text" />
@@ -36,14 +39,47 @@ const PaymentOrder = () => {
           </div>
 
           <br />
-          {/* <div className="Payment_Method">
-            <div className="dropbtn">Cryptocurrency</div>
-            <div class="dropdown-content"></div>
-          </div> */}
 
           <div className="Payment_Method">
-            <p>Cryptocurrency</p>
+            <div className="dropbtn">Cryptocurrency</div>
+            <div className="dropdown-content">
+              <form>
+                <input type="search" placeholder="Search for currency" />
+                <button type="submit">Search</button>
+              </form>
+
+              <div className="Payment_Method_Cryptocurrency">
+                <li className="Payment_Method_Crypto_li">
+                  <span>
+                    <FaBitcoin className="Payment_Method_FaBitcoin" />
+                  </span>
+                  Bitcoin
+                </li>
+                <li className="Payment_Method_Crypto_li">
+                  {" "}
+                  <span>
+                    <FaEthereum className="Payment_Method_FaEthereum" />
+                  </span>
+                  Ethereum
+                </li>
+                <li className="Payment_Method_Crypto_li">
+                  <span>
+                    <TbBrandBinance className="Payment_Method_TbBrandBinance" />
+                  </span>
+                  Binance Coin
+                </li>
+
+                <li className="Payment_Method_Crypto_li">
+                  {" "}
+                  <span>
+                    <BiShieldQuarter className="Payment_Method_BiShieldQuarter" />
+                  </span>
+                  Shiba INU Coin
+                </li>
+              </div>
+            </div>
           </div>
+
           <div className="Payment_Method_PayNow_Btn">
             <button className="Payment_Method_PayNow">Pay Now</button>
           </div>
